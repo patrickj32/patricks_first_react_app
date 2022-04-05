@@ -3,6 +3,7 @@ import Welcome from "./pj_components/Welcome";
 import CustomGreeting from "./pj_components/CustomGreeting"
 import PjClock from './pj_components/PjClock';
 import PjClockwithState from './pj_components/PjClockwithState';
+import Counter from './pj_components/Counter';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
       <CustomGreeting userName="Eric" />
       <PjClock time="10:30"/>
       <PjClockwithState />
+      <Counter />
 
       
     </div>
