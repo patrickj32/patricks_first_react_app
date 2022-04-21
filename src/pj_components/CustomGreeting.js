@@ -8,6 +8,7 @@ function CustomGreeting (props) {
             <h1>Greetings, {props.userName} you are {age} </h1>
         </div>
     );
+    
 }
 
 export default CustomGreeting ;
