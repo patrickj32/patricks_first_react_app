@@ -2,8 +2,8 @@
 import {useParams} from 'react-router-dom'
 
 function CheeseBurger(props) {
-let PJparems = useParams()
-let typeOfCheeseBurger = PJparems.type || 'plain'
+let {type} = useParams()
+let typeOfCheeseBurger = type || 'plain'
 
     return (
         <div >

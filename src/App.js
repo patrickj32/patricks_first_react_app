@@ -29,12 +29,12 @@ function App() {
       </Routes>
 
 
-      {/* <Welcome />
+      <Welcome />
       <CustomGreeting userName="Patrick" age='31' />
       <CustomGreeting userName="Eric" />
       <PjClock time="10:30" />
       <PjClockwithState />
-      <Counter /> */}
+      <Counter />
 
     </div>
 
